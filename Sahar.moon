@@ -1,0 +1,2 @@
+export *
+Sprite = require 'Sprite'
