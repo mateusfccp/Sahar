@@ -28,6 +28,8 @@ class Game
 -- Here is the drawing code. The developer using Sahar have not to worry
 -- about what happens here.
 love.draw = (deltaTime) ->
+	-- Every cicle the Stack is iterated for each sprite, it is drawn, and then
+	-- the sprite is popped from the stack.
 	for sprite in *SpriteStack
 		love.graphics.draw sprite.image, sprite.x, sprite.y
 		table.remove SpriteStack, 1
