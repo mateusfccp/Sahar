@@ -5,6 +5,9 @@
 -- enginering.
 
 export *					-- For having everything global :D
+
+Mouse = require 'Mouse'		-- Requiring Mouse module.
+
 Sprite = require 'Sprite'	-- Requiring the Sprite class
 SpriteStack = {}			-- The sprite stack which will be drawn
 
